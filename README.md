@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="skyplay-logo.png" alt="SkyPlay Logo" width="200"/>
+</p>
+
+
 # SkyPlay-Gaming-Lab
 Cloud-based GPU gaming performance platform
 
