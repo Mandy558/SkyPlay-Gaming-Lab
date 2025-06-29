@@ -23,3 +23,8 @@ We measure:
 
 📬 Contact: skyplay@gamedevmail.net  
 🌐 Site Coming Soon: [https://mandy558.github.io/SkyPlay-CloudGaming](https://mandy558.github.io/SkyPlay-CloudGaming)
+
+                        <p align="center">
+  <img src="skyplay-logo.png" alt="SkyPlay Logo" width="200"/>
+</p>
+  
