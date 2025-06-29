@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="skyplay-logo.png" alt="SkyPlay Logo" width="200"/>
+  <img src="Skyplay-logo.png" alt="SkyPlay Logo" width="200"/>
 </p>
 
 
