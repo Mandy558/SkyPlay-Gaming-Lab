@@ -32,3 +32,14 @@ We measure:
 - 🧘 Very High Patience: Calm, focused, and reliable under pressure
 
 **Completed Founder Institute Predictive Admissions Assessment (June 2025)**  
+
+🚀 Founder Institute Application
+SkyPlay Gaming Lab is currently in the application process for the Founder Institute Fall 2025 cohort (Atlanta/Silicon Valley).
+
+🧬 I’ve completed the Entrepreneur DNA Assessment — which identifies traits shared by top-performing startup founders, as featured in Forbes and The New York Times.
+
+📌 Application in progress — awaiting final admission decision.
+💡 Learn more: https://fi.co
+
+🙋‍♂️ About the Founder
+Omi, an aspiring tech founder with a passion for cloud-based gaming innovation, AI-enhanced interfaces, and building user-friendly platforms. Currently developing SkyPlay to democratize access to high-performance gaming via the cloud.
