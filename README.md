@@ -25,3 +25,10 @@ We measure:
 🌐 Site Coming Soon: [https://mandy558.github.io/SkyPlay-CloudGaming](https://mandy558.github.io/SkyPlay-CloudGaming)
 
                   
+🧠 **Founder Institute Entrepreneur DNA Profile: "The Architect"**
+
+- 🟣 Very High Intuition: Decisive and insightful leader
+- 🟢 Very High Planning: Strong strategic execution
+- 🧘 Very High Patience: Calm, focused, and reliable under pressure
+
+**Completed Founder Institute Predictive Admissions Assessment (June 2025)**  
