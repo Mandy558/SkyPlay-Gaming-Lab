@@ -8,42 +8,45 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: url('https://images.unsplash.com/photo-1614282588024-040fa3fdbce5?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      background-attachment: fixed;
       background-size: cover;
       color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       text-align: center;
-      padding: 40px 20px;
+      padding: 0;
+    }
+
+    header {
+      padding: 60px 20px 40px;
     }
 
     h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
+      font-size: 3.5rem;
       color: #00ffff;
-      text-shadow: 0 0 10px #000;
+      text-shadow: 0 0 20px #000;
+      margin-bottom: 10px;
     }
 
     p.subtitle {
       font-size: 1.2rem;
-      color: #e0e0e0;
-      margin-bottom: 30px;
-      max-width: 600px;
+      color: #dddddd;
       text-shadow: 0 0 5px #000;
+      max-width: 700px;
+      margin: 0 auto;
     }
 
-    .section {
-      background: rgba(0, 0, 0, 0.7);
-      padding: 20px;
-      margin: 20px;
-      border-radius: 12px;
-      max-width: 700px;
-      width: 100%;
+    section {
+      background: rgba(0, 0, 0, 0.6);
+      margin: 20px auto;
+      padding: 30px;
+      border-radius: 16px;
+      width: 90%;
+      max-width: 800px;
     }
 
     h2 {
       color: #ffa500;
+      margin-bottom: 10px;
     }
 
     ul {
@@ -64,39 +67,77 @@
       text-decoration: underline;
     }
 
+    .screenshots img {
+      width: 90%;
+      max-width: 500px;
+      margin: 15px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #00ffff;
+      color: #000;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 0 10px #00ffff;
+      transition: 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #00dddd;
+      box-shadow: 0 0 20px #00ffff;
+    }
+
     footer {
-      margin-top: 40px;
+      margin: 50px 0 20px;
       font-size: 0.9rem;
       color: #aaa;
-      text-shadow: 0 0 5px #000;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      .screenshots img {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
 
-  <h1>SkyPlay Gaming Lab</h1>
-  <p class="subtitle">A creative space to build, test, and launch multiplayer games powered by AWS GameTech.</p>
+  <header>
+    <h1>SkyPlay Gaming Lab</h1>
+    <p class="subtitle">A creative space to build, test, and launch multiplayer games powered by AWS GameTech.</p>
+  </header>
 
-  <div class="section">
-    <h2>🎮 What is SkyPlay?</h2>
-    <p>SkyPlay is a digital lab for game creators. Whether you're prototyping your first platformer or launching a multiplayer battleground, SkyPlay gives you tools, templates, and tech to bring your ideas to life — fast.</p>
-  </div>
+  <section class="screenshots">
+    <h2>🖼 Game Sneak Peek</h2>
+    <p>Here’s a glimpse of what we're building. Multiplayer madness meets creativity:</p>
+    <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1000&q=80" alt="Game preview" />
+  </section>
 
-  <div class="section">
-    <h2>🚧 Roadmap (Early Preview)</h2>
+  <section>
+    <h2>🛣 Roadmap</h2>
     <ul>
-      <li>✅ Game engine integration</li>
-      <li>✅ User profiles & cloud saves</li>
-      <li>🔄 Multiplayer support (in progress)</li>
-      <li>🧪 Level editor coming soon</li>
+      <li>✅ Game engine integration complete</li>
+      <li>✅ User login and save system working</li>
+      <li>🔄 Real-time multiplayer (in progress)</li>
+      <li>🧪 Level editor and share hub (coming soon)</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="section">
-    <h2>📫 Contact & Links</h2>
+  <section>
+    <h2>📬 Contact</h2>
     <p>Email: <a href="mailto:omiambre123@gmail.com">omiambre123@gmail.com</a></p>
-    <p>GitHub Repo: <a href="https://github.com/Mandy558/SkyPlay-Gaming-Lab">SkyPlay Gaming Lab</a></p>
-  </div>
+    <p>GitHub: <a href="https://github.com/Mandy558/SkyPlay-Gaming-Lab">SkyPlay Gaming Lab</a></p>
+    <a class="button" href="https://github.com/Mandy558/SkyPlay-Gaming-Lab" target="_blank">View on GitHub</a>
+  </section>
 
   <footer>
     © 2025 SkyPlay Gaming Lab. Built with passion, pixels, and AWS.
